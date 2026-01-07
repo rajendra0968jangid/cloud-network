@@ -14,15 +14,15 @@ const ipAddresses = [
   "3.85.205.80",
 ];
 
-const v = "07:57:00";
+const v = "18:14:00";
 const startTime = new Date(`2026-01-07T${v}`).getTime();
 const counter = "countdown1" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
 const ipAddresses1 = [
-  "https://430941623067.signin.aws.amazon.com/console?region=us-east-1",
-  "kk_labs_user_386311",
-  "vG!3UcUGl1Rr",
+  "https://044353310261.signin.aws.amazon.com/console?region=us-east-1",
+  "kk_labs_user_123492",
+  "0nl%@xoh^0N@",
 ];
 // changes off
 
