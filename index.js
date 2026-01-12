@@ -15,7 +15,7 @@ const ipAddresses = [
 ];
 
 const v = "10:53:00";
-const startTime = new Date(`2026-01-07T${v}`).getTime();
+const startTime = new Date(`2026-01-12T${v}`).getTime();
 const counter = "countdown1" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
