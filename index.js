@@ -20,9 +20,9 @@ const counter = "countdown1" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
 const ipAddresses1 = [
-  "https://587263142585.signin.aws.amazon.com/console?region=us-east-1",
-  "kk_labs_user_143909",
-  "qldNwxxsjX00",
+  "https://038625728415.signin.aws.amazon.com/console",
+  "kk-lab-123456",
+  "Virat@!23",
 ];
 // changes off
 
