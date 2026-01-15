@@ -22,7 +22,7 @@ const counter = "countdown1" // countdown | countdown1
 const ipAddresses1 = [
   "https://038625728415.signin.aws.amazon.com/console",
   "kk-lab-123456",
-  "Virat@!23",
+  "Virat@123",
 ];
 // changes off
 
