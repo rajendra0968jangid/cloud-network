@@ -14,8 +14,8 @@ const ipAddresses = [
   "3.85.205.80",
 ];
 
-const v = "14:24:00";
-const startTime = new Date(`2026-01-15T${v}`).getTime();
+const v = "10:37:00";
+const startTime = new Date(`2026-01-16T${v}`).getTime();
 const counter = "countdown1" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
