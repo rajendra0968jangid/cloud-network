@@ -6,15 +6,15 @@ function copyToClipboard1(ip) {
 
 // changes on
 // List of IPs (this can come from API, backend, or config)
-const ipAddresses = [
-  "52.90.153.107",
-  "50.19.138.177",
-  "54.209.164.144",
-  "3.82.48.71",
-  "3.85.205.80",
-];
+// const ipAddresses = [
+//   "52.90.153.107",
+//   "50.19.138.177",
+//   "54.209.164.144",
+//   "3.82.48.71",
+//   "3.85.205.80",
+// ];
 
-const v = "00:32:00";
+const v = "01:32:00";
 const startTime = new Date(`2026-01-22T${v}`).getTime();
 const counter = "countdown1" // countdown | countdown1
 ////////////aws cloud
@@ -44,18 +44,18 @@ ipAddresses1.forEach((ip) => {
 ///////// aws
 
 // Render IP list into the container
-const ipGrid = document.getElementById("ipGrid");
-ipAddresses.forEach((ip) => {
-  const div = document.createElement("div");
-  div.classList.add("ip-item");
-  div.innerHTML = `
-    ${ip} 
-    <button class="copy-btn" onclick="copyToClipboard('ssh ubuntu@${ip}')">
-      <i class="fas fa-copy"></i> Copy
-    </button>
-  `;
-  ipGrid.appendChild(div);
-});
+// const ipGrid = document.getElementById("ipGrid");
+// ipAddresses.forEach((ip) => {
+//   const div = document.createElement("div");
+//   div.classList.add("ip-item");
+//   div.innerHTML = `
+//     ${ip} 
+//     <button class="copy-btn" onclick="copyToClipboard('ssh ubuntu@${ip}')">
+//       <i class="fas fa-copy"></i> Copy
+//     </button>
+//   `;
+//   ipGrid.appendChild(div);
+// });
 
 // Copy to clipboard function
 function copyToClipboard(text) {
