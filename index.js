@@ -14,8 +14,8 @@ function copyToClipboard1(ip) {
 //   "3.85.205.80",
 // ];
 
-const v = "22:27:00";
-const startTime = new Date(`2026-01-29T${v}`).getTime();
+const v = "09:47:00";
+const startTime = new Date(`2026-01-30T${v}`).getTime();
 const counter = "countdown1" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
