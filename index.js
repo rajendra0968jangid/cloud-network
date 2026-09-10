@@ -14,15 +14,15 @@ function copyToClipboard1(ip) {
 //   "3.85.205.80",
 // ];
 
-const v = "22:21:00";
-const startTime = new Date(`2026-02-03T${v}`).getTime();
+const v = "10:51:00";
+const startTime = new Date(`2026-09-10T${v}`).getTime();
 const counter = "countdown1" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
 const ipAddresses1 = [
-  "https://038625728415.signin.aws.amazon.com/console",
-  "kk-lab-123456",
-  "Virat@1231",
+  "https://910485845742.signin.aws.amazon.com/console",
+  "deployment",
+  "Virat@123",
 ];
 // changes off
 
